@@ -1,1 +1,1 @@
-web: jupyter server --browser false --ip 0.0.0.0 --port $PORT
+web: jupyter server --ip 0.0.0.0 --port $PORT --browser false
