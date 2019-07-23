@@ -1,1 +1,1 @@
-web: jupyter server --ip 0.0.0.0 --port 5000
+worker: jupyter server --ip 0.0.0.0 --port 5000
