@@ -1,1 +1,1 @@
-web: jupyter server --ip 0.0.0.0 --port $PORT --browser false
+web: jupyter server --ip 0.0.0.0 --port $PORT --browser false --NotebookApp.token='eb39dce94b04c9da97ef65abe28b67d12db4075757d88781'
