@@ -1,1 +1,1 @@
-worker: jupyter server --ip 0.0.0.0 --port 5000
+web: gunicorn app:jupyter server --browser false --ip 0.0.0.0 --port 5000
